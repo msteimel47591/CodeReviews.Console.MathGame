@@ -159,7 +159,6 @@ namespace ConsoleMathGame
             Console.Clear();
             Console.WriteLine(message);
 
-            Random random = new Random();
             int score = 0;
 
             int difficulty = Helpers.GetDifficulty(message);
